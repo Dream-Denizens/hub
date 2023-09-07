@@ -1,0 +1,46 @@
+# Basic
+*            text=auto
+
+*.txt        text
+*.md         text diff=markdown
+*.mdx        text diff=markdown
+*.adoc       text
+
+# Repository
+LICENSE      text
+COPYING      text
+CONTRIBUTING text
+
+# Media
+*.svg        text
+
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.gif        binary
+*.webp       binary
+*.webm       binary
+
+# Display
+*.pdf        diff=astextplain
+*.epub       diff=astextplain
+
+# Scripts
+*.sh         text eol=lf
+
+*.bat        text eol=crlf
+*.cmd        text eol=crlf
+*.ps1        text eol=crlf
+
+# Configuration
+*.xml        text
+*.yml        text
+*.json       text
+
+# Preserve
+*.patch     -text
+
+# Ignore
+.gitattributes export-ignore
+.gitignore     export-ignore
+.gitkeep       export-ignore
